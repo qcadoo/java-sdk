@@ -138,7 +138,13 @@ public class MobeelizerConfiguration {
 		this.password = password;
 	}
 
-	void setUrl(final String url) {
+	/**
+	 * Sets url to mobeelizer cloud.
+	 * @param url
+	 * 			url to the cloud instance.
+	 * @since 1.8
+	 */
+	public void setUrl(final String url) {
 		this.url = url;
 	}
 
